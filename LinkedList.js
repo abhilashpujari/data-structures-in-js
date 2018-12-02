@@ -19,12 +19,11 @@ class LinkedList {
     /* Adds the element at the end of the linklist */
     add(value) {
         let newNode = new Node(value);
+        let currentNode = this.head;
 
-        if (this.head === null) {
+        if (currentNode === null) {
             this.head = newNode;
         } else {
-            let currentNode = this.head;
-
             while (currentNode.next) {
                 currentNode = currentNode.next;
             }

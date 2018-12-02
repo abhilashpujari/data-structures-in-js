@@ -21,6 +21,10 @@ class Stack {
             this.items.pop();
         }
     }
+
+    size() {
+        return this.items.length;
+    }
 }
 
 let stack1 = new Stack();
@@ -33,5 +37,5 @@ stack1.pop();
 stack1.push(24);
 
 console.log(stack1.peek());
-
 console.log(stack1);
+console.log(stack1.size());
