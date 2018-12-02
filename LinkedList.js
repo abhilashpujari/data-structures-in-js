@@ -11,7 +11,7 @@ class LinkedList {
         this.size = 0;
     }
 
-    /*  Returns the size of an linked list */
+    /*  Returns the size of a linked list */
     sizeOf() {
         return this.size;
     }
